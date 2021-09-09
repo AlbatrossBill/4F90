@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8">
+<object className="Foo">
+<field type=”int” value=”42”/>
+<field type=”byte” value=”8”/>
+<field type=”short” value=”12”/>
+<field type=”long” value=”50”/>
+<field type=”float” value=”12.3”/>
+<field type=”double” value=”15.86”/>
+<field type=”boolean” value=”false”/>
+<field type=”char” value=”a”/>
+<field type=”string” value=”HelloWorld”/>
+</object>
