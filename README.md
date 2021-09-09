@@ -5,3 +5,11 @@
 - [x] Step 2: Pretend I only know the name of the class, the names of the field and values for each filed. Creating an object of the class Foo with those values. In another hand, using reflection. No new.. is used!!(new Foo())
 
 - [x] Step 3: Making a new super class FooBase, it's subclass is Foo. Moving some variable from Foo to FooBase. Writing a method called getAllFields(Class clazz), in order to get all the fields that exists in both Foo and FooBase. You can use .getSuperClass() method. 
+
+- [ ] Step 4: Building the XML representation of an object. For that, start with only the primitive types (string is NOT primitive, it is an object). The XML representation should like as follows. Use the StringBuilder class for creating the XML string.
+```
+<object className=”…”>
+<field type=”int” value=”42”/>   //similar for all other primitive types
+…
+</object>
+```
