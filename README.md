@@ -14,7 +14,7 @@
 </object>
 ```
 
-- [ ] Step 5: Using StringBuilder to make a xml string like below:
+- [x] Step 5: Using StringBuilder to make a xml string like below:
 ```
 <object className="Foo" ref="0">
 <int name="age">
