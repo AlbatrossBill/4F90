@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Foo>
+  <age>23</age>
+  <name>Bill</name>
+  <grade>80.0</grade>
+  <objVar>
+    <height>182</height>
+    <myVar>
+      <myObj>
+        <anInt>0</anInt>
+        <aDouble>333.0</aDouble>
+        <aString>f.objVar.myVar.myObj.aString</aString>
+      </myObj>
+    </myVar>
+  </objVar>
+  <myVar>
+    <address>Thorold</address>
+    <myObj />
+  </myVar>
+  <myObj>
+    <anInt>1</anInt>
+    <aDouble>0.0</aDouble>
+    <aString>aString</aString>
+  </myObj>
+  <mys>
+    <MyObj>
+      <anInt>1</anInt>
+      <aDouble>1.1</aDouble>
+      <aString>aString1</aString>
+    </MyObj>
+    <MyObj>
+      <anInt>2</anInt>
+      <aDouble>2.2</aDouble>
+      <aString>aString2</aString>
+    </MyObj>
+    <MyObj>
+      <anInt>3</anInt>
+      <aDouble>3.3</aDouble>
+      <aString>aString3</aString>
+    </MyObj>
+  </mys>
+</Foo>
