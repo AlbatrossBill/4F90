@@ -31,3 +31,12 @@
 </object>
 ```
 As we can see the ref which represent one object. First we print out object's variable as XML format. Then, if there is an object's variable which contain another object. We need to print out another object's variable until the last object's variable has no another object.
+- [x] Step 6: 
+I need to do implement the decorator design pattern (Decorator pattern - Wikipedia) twice for writing and reading objects as xml code. In  particular, we need the following:
+
+1. Create a class XMLObjectWriter as a subclass of Writer. This will be a ConcreteDecorator class (see design pattern).
+2. Implement a method void writeXMLObject(Object obj) that will convert obj into a string by using the previous code. Then this string containing xml code is written to the inner writer of the class (see design pattern).
+3. Create a class XMLObjectReader as a subclass of Reader. This will be the second ConcreteDecorator.
+4. In this calls you need to add a method Object readXMLObject() that reads an string with xml content from the inner Reader (see design pattern), and then creates an object out of this information. For this you need code that does the opposite of what you already implemented using our approach.
+
+You can test your program by creating an XMLObjectWriter based on a FileWriter, and then use the method writeXMLObject(Object obj) for an example object. After this the file should contain the appropriate xml information. Then you can use a XMLObjectReader based on the same file to load the object again. This object should have the same values in its variables as before all of this.
